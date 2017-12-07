@@ -1,0 +1,172 @@
+form.tabs {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("bg.png");
+    //min-height: 100%;
+    //padding-bottom: 155px;
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.container input {
+    width: 180px;
+    padding-bottom 0px;
+    padding-top 0px;
+}
+
+.loginpad {
+    padding-top: 125px;
+}
+
+
+.registerpad {
+    padding-top: 50px;
+}
+
+.buttonpad {
+    padding-left: 100px;
+}
+
+
+.row {
+    background-image: url("bg.png") !important;
+}
+
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+td, th {
+    border: 1px solid blue;
+}
+
+th {
+    background: #d1d1e0;
+}
+
+td {
+    background: #a4a4c1;
+    text-align:center;
+}
+
+tr:nth-child(odd) td {
+    background: #c2c2d6;
+}
+
+div.tabs {
+    padding-left: 55px;
+    padding-bottom: 10px;
+    background: #a4a4c1;
+}
+
+input[type=submit] {
+    display: inline-block !important;
+    margin: 0 auto;
+    //margin: 20px;
+    //padding: 10px;
+    //border: 1px solid grey;
+}
+
+.footer {
+    //position: absolute;
+    bottom: 0;
+    height: 165px;
+    background: #cafafe !important;
+}
+button {
+    background: #ddd;
+}
+
+a.myanchor {
+    color: #fc4445;
+}
+
+h4{
+    color: #55bcc9 !important;
+}
+
+div.tabx {
+    //float: right;
+    //position: relative;
+    //left: -50%;
+    width: 80%;
+    margin: 0 auto;
+    //text-align: center;
+    //width: 80%;
+    //border: 1px solid #ccc;
+    //background-color: #f1f1f1 !important;
+}
+
+div.tabx button {
+    margin: 0 auto;
+    background-color: #8baeef;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+div.tabx button.page {
+    width: 200px !important;
+    padding: 10px;
+}
+
+div.tabx button:hover {
+    background-color: #ddd;
+}
+
+div.tabx button.active {
+    background-color: #000;
+}
+
+button.submitbut {
+    background-color: #8baeef;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#EmpForm {
+    z-index: 1;
+    display: none;  
+    position: fixed;
+    text-align: center;
+    background: white;
+    left: 30%;
+    right:30%;
+    padding: 50px;
+}
+
+button.centeredbut {
+    display: block;
+    background-color: #8baeef;
+    padding: 20px;
+    border: 1px solid black;
+}
+#JobForm {
+    z-index: 1;
+    display: none;  
+    position: fixed;
+    text-align: center;
+    background: white;
+    left: 30%;
+    right:30%;
+    padding: 50px;
+}
+
+#demovid {
+    padding:10px;
+    margin: 0 auto;
+}
+
+#about {
+    margin: 0 auto;
+    width:50%
+}
